@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   mydemenageur-api:
   - apiVersion: v1
-    created: "2021-10-08T19:20:10.3059674+02:00"
+    created: "2021-10-11T22:57:42.7556036+02:00"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami/
@@ -13,4 +13,13 @@ entries:
     urls:
     - mydemenageur-api-1.0.0.tgz
     version: 1.0.0
-generated: "2021-10-08T19:20:10.2691201+02:00"
+  mydemenageur-web:
+  - apiVersion: v1
+    created: "2021-10-11T22:57:42.7615516+02:00"
+    description: The Helm chart for the MyDemenageur site
+    digest: 7a2bd9474869dd9b22f41320f2100830d18e5db8f4ebb32fcdf873eccb5256fd
+    name: mydemenageur-web
+    urls:
+    - mydemenageur-web-1.0.0.tgz
+    version: 1.0.0
+generated: "2021-10-11T22:57:42.7207443+02:00"
